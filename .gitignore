@@ -1,0 +1,32 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# --- Virtual environments ---
+venv/
+.venv/
+.env/
+
+# --- Flask / DB / runtime ---
+instance/
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# --- Testing / tooling caches ---
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.cache/
+
+# --- Editors / OS ---
+.vscode/
+.DS_Store
